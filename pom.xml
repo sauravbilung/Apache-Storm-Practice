@@ -27,7 +27,7 @@
 			<artifactId>storm-core</artifactId>
 			<version>1.2.3</version>
 			<!-- Change scope to compile when running in IDE, to provided when building a JAR -->
-			<scope>compile</scope>
+			<scope>provided</scope>
 		</dependency>
 
 	</dependencies>
