@@ -10,7 +10,7 @@ import org.apache.storm.tuple.Values;
 public class WordNormalizerBolt extends BaseBasicBolt {
 
 	private static final long serialVersionUID = 1L;
-	
+
 	@Override
 	public void execute(Tuple input, BasicOutputCollector collector) {
 

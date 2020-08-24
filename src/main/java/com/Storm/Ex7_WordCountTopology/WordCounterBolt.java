@@ -24,7 +24,7 @@ public class WordCounterBolt extends BaseBasicBolt {
 		this.counters = new HashMap<String, Integer>();
 		this.name = context.getThisComponentId();
 		this.id = context.getThisTaskId();
-		this.fileName = stormConf.get("direToWrite").toString() + "output" + "-" + id + "-" + name + ".txt";
+		this.fileName = stormConf.get("dirToWrite").toString() + "output" + "-" + id + "-" + name + ".txt";
 	}
 
 	@Override
