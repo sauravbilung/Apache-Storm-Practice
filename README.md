@@ -29,7 +29,7 @@ Distributed stream processing using Apache Storm.
 
 
 ## Bugs in Direct Grouping. Will be fixed soon.
-
+## Bugs in storm kafka integration package.
 
 
 
